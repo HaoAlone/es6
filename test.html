@@ -3,28 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <style>
+        @import "css.css";
+    </style>
 </head>
 <body>
-
-<li>1</li>
-<li>2</li>
-<li>3</li>
-<li>4</li>
-<li>5</li>
-<li>6</li>
+<iframe name="test" src="./index.html" ></iframe>
+<iframe src="http://www.baidu.com" frameborder="0"></iframe>
+<button>点击</button>
 
 <script>
-    let lis = document.querySelectorAll("li");
-    function ts() {
-        for (let i = 0;i<lis.length;i++){
-            lis[i].onclick = function () {
-                console.log(i)
-            }
-            console.log(this)
-        }
-    }
-
-    ts();
+    console.log(window.frames['test'])
 </script>
 </body>
 </html>

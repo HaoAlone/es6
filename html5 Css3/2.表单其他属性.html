@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表单</title>
+</head>
+<body>
+<form action="" id="myform">
+<!--    提示文本  自动获取焦点-->
+<!--    自动完成 on off 1.成功提交过 2.有name属性-->
+    <input type="text" placeholder="placehoder"
+           autofocus
+           name="username"
+    autocomplete="on"> <br>
+<!--tel不会提示 只在移动端弹出数字框  -->
+<!--    必须输入-->
+<!--    pattern 正则表达式验证-->
+    <input type="tel" required
+    pattern="^(\+86)?1\d{10}"> <br>
+<!--    上传文件 多个文件-->
+文件 <input type="file" name="photo" multiple> <br>
+<!--    -->
+    邮箱:<input type="email" multiple> <br>
+<!--    提交-->
+    <input type="submit"> <br>
+</form>
+<!--name绑定form-->
+<input type="text" name="myform">
+</body>
+</html>
