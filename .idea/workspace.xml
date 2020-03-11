@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a78f3c8-d935-4024-8ff6-8713e329a277" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/4.字符串的拓展" beforeDir="false" afterPath="$PROJECT_DIR$/4.字符串的拓展" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/test.html" afterDir="false" />
-    </list>
+    <list default="true" id="8a78f3c8-d935-4024-8ff6-8713e329a277" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -260,12 +256,12 @@
       <workItem from="1579261174272" duration="7305000" />
       <workItem from="1581682931314" duration="5005000" />
       <workItem from="1582335458783" duration="16403000" />
-      <workItem from="1583714398643" duration="10252000" />
+      <workItem from="1583714398643" duration="10828000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="53907000" />
+    <option name="totallyTimeSpent" value="54483000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
