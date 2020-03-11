@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a78f3c8-d935-4024-8ff6-8713e329a277" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/3.解构赋值.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/4.字符串的拓展" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Moudle.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html5 Css3/1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html5 Css3/1.表单type.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/html5 Css3/2.表单其他属性.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/moduole.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/let与const.md" beforeDir="false" afterPath="$PROJECT_DIR$/1.let与const.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/4.字符串的拓展" beforeDir="false" afterPath="$PROJECT_DIR$/4.字符串的拓展" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/箭头函数.md" beforeDir="false" afterPath="$PROJECT_DIR$/2.箭头函数.md" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -45,8 +36,8 @@
         <entry file="file://$PROJECT_DIR$/4.字符串的拓展">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="57">
-                <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+              <first_editor relative-caret-position="148">
+                <caret line="72" column="9" selection-start-line="72" selection-start-column="9" selection-end-line="72" selection-end-column="9" />
               </first_editor>
               <second_editor />
             </state>
@@ -54,15 +45,19 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/123.php">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/canvas-nest.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="6850" selection-start-column="6850" selection-end-column="6850" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/moduole.js">
+        <entry file="file://$PROJECT_DIR$/test.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1691">
-              <caret line="89" column="14" selection-start-line="89" selection-start-column="14" selection-end-line="89" selection-end-column="14" />
+            <state relative-caret-position="168">
+              <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -127,8 +122,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -152,7 +147,6 @@
         <option value="$PROJECT_DIR$/箭头函数.md" />
         <option value="$PROJECT_DIR$/test.js" />
         <option value="$PROJECT_DIR$/轮播.html" />
-        <option value="$PROJECT_DIR$/test.html" />
         <option value="$PROJECT_DIR$/Moudle.md" />
         <option value="$PROJECT_DIR$/解构赋值.js" />
         <option value="$PROJECT_DIR$/123.php" />
@@ -164,12 +158,15 @@
         <option value="$PROJECT_DIR$/html5 Css3/2.表单其他属性.html" />
         <option value="$PROJECT_DIR$/html5 Css3/1.html" />
         <option value="$PROJECT_DIR$/解构赋值.md" />
+        <option value="$PROJECT_DIR$/nest.js" />
+        <option value="$PROJECT_DIR$/test.html" />
         <option value="$PROJECT_DIR$/4.字符串的拓展" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="y" value="23" />
+    <option name="x" value="580" />
+    <option name="y" value="325" />
     <option name="width" value="1440" />
     <option name="height" value="808" />
   </component>
@@ -263,18 +260,17 @@
       <workItem from="1579261174272" duration="7305000" />
       <workItem from="1581682931314" duration="5005000" />
       <workItem from="1582335458783" duration="16403000" />
-      <workItem from="1583714398643" duration="7127000" />
+      <workItem from="1583714398643" duration="10252000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50782000" />
+    <option name="totallyTimeSpent" value="53907000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4966443" visible="true" weight="0.12896407" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4966443" visible="true" weight="0.12896407" />
       <window_info id="Structure" order="1" sideWeight="0.50089765" side_tool="true" weight="0.15503876" />
       <window_info id="Favorites" order="2" sideWeight="0.5033557" side_tool="true" weight="0.15503876" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -286,7 +282,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49964765" weight="0.28313252" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" sideWeight="0.49964765" visible="true" weight="0.38554215" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5003524" side_tool="true" weight="0.32891566" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -396,13 +392,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Moudle.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
@@ -477,11 +466,25 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/canvas-nest.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6850" selection-start-column="6850" selection-end-column="6850" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/4.字符串的拓展">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="57">
-            <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+          <first_editor relative-caret-position="148">
+            <caret line="72" column="9" selection-start-line="72" selection-start-column="9" selection-end-line="72" selection-end-column="9" />
           </first_editor>
           <second_editor />
         </state>

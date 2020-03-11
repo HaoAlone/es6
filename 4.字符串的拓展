@@ -7,4 +7,78 @@
  '\u{1F680}' === '\uD83D\uDE80'
 `
 
->字符串的6中表达方式
+>字符串的6种表达方式  
+`
+'\z' === 'z'  // true  
+'\172' === 'z' // true   
+'\x7A' === 'z' // true   
+'\u007A' === 'z' // true   
+'\u{7A}' === 'z' // true   
+`
+
+## 2.字符串的遍历接口 for...of...  
+>for (let codePoint of 'foo'){
+ console.log(codePoint)
+}
+// "f"
+// "o"
+// "o"
+
+除了遍历字符串，这个遍历器最大的优点是可以识别大于0xFFFF的码点，传统的for循环无法识别这样的码点。  
+`
+let text = String.fromCodePoint(0x20BB7);
+for (let i = 0; i < text.length; i++) {
+  console.log(text[i]);
+}
+// " "
+// " "
+for (let i of text) {
+  console.log(i);
+}
+// "𠮷"
+`
+上面代码中，字符串text只有一个字符，但是for循环会认为它包含两个字符（都不可打印），而for...of循环会正确识别出这一个字符。
+
+### 3.字符串允许直接输入u+2028 u+2029
+JavaScript 规定有5个字符，不能在字符串里面直接使用，只能使用转义形式。
+
+- U+005C：反斜杠（reverse solidus)
+- U+000D：回车（carriage return）
+- U+2028：行分隔符（line separator）
+- U+2029：段分隔符（paragraph separator）
+- U+000A：换行符（line feed）
+
+JSON 格式允许字符串里面直接使用 U+2028（行分隔符）和 U+2029（段分隔符)。这就会导致Json.parse()这两个字符串
+会报错
+
+### 4. JSON.stringfy()的改造
+由于规定xD800到0xDFFF之间的码点，不能单独使用，现在JSON.stringfy有可能返回这样的码点，
+解决:返回转义字符   
+`
+JSON.stringify('\u{D834}') // ""\\uD834""
+JSON.stringify('\uDF06\uD834') // ""\\udf06\\ud834""
+`
+
+# 5.*模板字符串*
+\`\`反引号 
+1. 定义多行字符串
+2.字符串中引入变量\`${}\`
+{}中可以是表达式，甚至是函数调用  
+3.空格和缩进会被保留在输出中  
+`
+('#list').html(\`<ul><li>first</li><li>second</li></ul>\`);
+`
+上面代码中，所有模板字符串的空格和换行，都是被保留的，比如<ul>标签前面会有一个换行。如果你不想要这个换行，可以使用trim方法消除它。
+
+### 6.实例:模板编译
+
+
+
+
+
+
+
+
+
+
+
