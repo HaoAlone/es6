@@ -1,0 +1,17 @@
+## String.fromCodePoint
+string.fromCharCode 不能识别码点大于0xfff
+String.fromCodePoint 可以 （new）
+
+## String.raw()
+该方法返回一个斜杠都被转义的字符串
+>String.raw`Hi\n${2+3}!`  
+ // 实际返回 "Hi\\n5!"，显示的是转义后的结果 "Hi\n5!"  
+ String.raw`Hi\u000A!`;  
+ // 实际返回 "Hi\\u000A!"，显示的是转义后的结果 "Hi\u000A!" 
+  
+ String.raw()方法可以作为处理模板字符串的基本方法，它会将所有变量替换，而且对斜杠进行转义，方便下一步作为字符串来使用。
+ 
+ ## codePointAt()
+ 码点大于0xfff的字符存储占4个字节，一般一个字符两个字节
+ codePointAt(0)+codePointAt(1) 
+ 
