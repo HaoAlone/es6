@@ -1,0 +1,59 @@
+## 1.二进制和八进制表示方法
+二进制，前缀 0b或0B  
+八进制,前缀 0o或0O  
+*转十进制*Number()
+
+## 2.Number.isFinite(), Number.isNaN()
+Number.isFinite()用来检查一个数值是否为有限的（finite），即不是Infinity。  
+`
+Number.isFinite(15); // true 
+Number.isFinite(0.8); // true  
+Number.isFinite(NaN); // false  
+Number.isFinite(Infinity); // false  
+Number.isFinite(-Infinity); // false  
+Number.isFinite('foo'); // false  
+Number.isFinite('15'); // false  
+Number.isFinite(true); // false
+`
+注意，如果参数类型不是数值，Number.isFinite一律返回false。
+
+##  3.Number.isNaN()
+Number.isNaN()用来检查一个值是否为NaN。
+`
+Number.isNaN(NaN) // true  
+Number.isNaN(15) // false
+Number.isNaN('15') // false
+Number.isNaN(true) // false
+Number.isNaN(9/NaN) // true
+Number.isNaN('true' / 0) // true
+Number.isNaN('true' / 'true') // true
+`
+如果参数类型不是NaN，Number.isNaN一律返回false。
+
+>它们与传统的全局方法isFinite()和isNaN()的区别在于，传统方法先调用Number()将非数值的值转为数值，再进行判断，而这两个新方法只对数值有效，Number.isFinite()对于非数值一律返回false, Number.isNaN()只有对于NaN才返回true，非NaN一律返回false。
+
+## 4.Number.parseInt(), Number.parseFloat
+ES6 将全局方法parseInt()和parseFloat()，移植到Number对象上面，行为完全保持不变。
+
+>// ES5的写法
+parseInt('12.34') // 12
+parseFloat('123.45#') // 123.45
+
+>// ES6的写法
+Number.parseInt('12.34') // 12
+Number.parseFloat('123.45#') // 123.45
+
+## 5.Number.isInteger()
+判断是否为整数 
+javascript，整数存储和浮点数存储
+
+
+
+
+
+
+
+
+
+
+
